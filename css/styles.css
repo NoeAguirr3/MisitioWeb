@@ -1,0 +1,111 @@
+	body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #5B0000;
+            text-align: center; /* Centro del menú center,left (izquierda), right(derecha)*/ 
+        }
+
+        li {
+            display: inline-block; /* Mostrar los elementos en línea */
+            float: none; /* Asegurar que los elementos no floten */
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #555;
+        }
+
+	/* Estilo para la colocacion de imagen principal y la información */
+
+	 .imagen-principal {
+            max-width: 100%; /* Hacer la imagen responsive */
+            height: auto; /* Ajustar la altura automáticamente */
+        }
+	
+	/* Estilo para el contenedor del video y la información */
+         
+	.contenedorVideo {
+            display: flex;
+            margin: 20px auto; /* Margen automático para centrar verticalmente */
+            max-width: 800px; /* Máximo ancho del contenedor */
+        }
+
+        .miVideo {
+            width: 70%; /* Ancho del video */
+            margin-right: 20px; /* Espacio entre el video y la información */
+        }
+
+        .informacion {
+            width: 30%; /* Ancho de la información */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centrar verticalmente el texto */
+        }
+
+	/* Estilo para la galería de imágenes */
+
+          .galeria {
+            text-align: center;
+        }
+
+        .imagen {
+            display: inline-block;
+            margin: 10px;
+            overflow: hidden;
+            max-width: 200px; /* Ancho máximo para las imágenes */
+        }
+
+        .imagen img {
+            width: 100%;
+            height: auto;
+        }
+
+        .imagen:hover {
+            transform: scale(1.1);
+        }
+
+	form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #E384F3;
+            border-radius: 10px;
+        }
+	/* Estilo para formulario */
+
+        label,
+        input,
+        textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }.right {
+}
+.center {
+}
